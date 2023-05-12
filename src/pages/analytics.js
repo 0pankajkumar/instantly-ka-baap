@@ -1,11 +1,14 @@
-import { Inter } from "next/font/google";
+import AppSkeleton from "@/components/AppSkeleton";
 
-const inter = Inter({ subsets: ["latin"] });
+function AnalyticsContent() {
+  return <div>Analytics</div>;
+}
 
 export default function Analytics() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Analytics
-    </main>
+    <div>
+      <AppSkeleton />
+      <AnalyticsContent />
+    </div>
   );
 }

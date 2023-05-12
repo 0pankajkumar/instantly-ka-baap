@@ -1,11 +1,12 @@
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+function Inbox() {
+  return <div>Inbox</div>;
+}
 
 export default function Inbox() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Inbox
-    </main>
-  )
+    <div>
+      <AppSkeleton />
+      <Inbox />
+    </div>
+  );
 }

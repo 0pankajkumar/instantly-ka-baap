@@ -6,9 +6,9 @@ function AccountsContent() {
 
 export default function Accounts() {
   return (
-    <main>
+    <div>
       <AppSkeleton />
       <AccountsContent />
-    </main>
+    </div>
   );
 }
