@@ -1,11 +1,12 @@
 import Link from "next/link";
+import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 
 export default function SideBar() {
   return (
     <div className="h-screen max-w-[9%]">
-      <div className="px-4 py-2 bg-gray-200 bg-white-600">
+      <div className="px-4 py-2">
         <ul className="flex flex-col justify-between">
-          <li className="mb-2 rounded hover:shadow hover:bg-gray-800">
+          <li className="mb-2 rounded hover:shadow hover:bg-gray-200">
             <Link
               href="/accounts"
               className="inline-block w-full h-full px-3 py-2 font-bold text-black"
@@ -26,7 +27,7 @@ export default function SideBar() {
               </svg>
             </Link>
           </li>
-          <li className="mb-2 rounded hover:shadow hover:bg-gray-800">
+          <li className="mb-2 rounded hover:shadow hover:bg-gray-200">
             <Link
               href="/analytics"
               className="inline-block w-full h-full px-3 py-2 font-bold text-black"
@@ -41,7 +42,7 @@ export default function SideBar() {
               </svg>
             </Link>
           </li>
-          <li className="mb-2 rounded hover:shadow hover:bg-gray-800">
+          <li className="mb-2 rounded hover:shadow hover:bg-gray-200">
             <Link
               href="/campaigns"
               className="inline-block w-full h-full px-3 py-2 font-bold text-black"
@@ -62,7 +63,7 @@ export default function SideBar() {
               </svg>
             </Link>
           </li>
-          <li className="mb-2 rounded hover:shadow hover:bg-gray-800">
+          <li className="mb-2 rounded hover:shadow hover:bg-gray-200">
             <Link
               href="/inbox"
               className="inline-block w-full h-full px-3 py-2 font-bold text-black"
